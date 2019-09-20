@@ -52,8 +52,8 @@ module.exports = {
           "**/media",
           "**/tags",
           "**/taxonomies",
-          "**/users",
-          "/*/*/settings"
+          "**/users"
+//           "/*/*/settings"
         ]
       }
       // Doesnt seem to work yet...
