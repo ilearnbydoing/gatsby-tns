@@ -40,10 +40,10 @@ module.exports = {
         //     sourceUrl: 'https://rest.thoughtsandstuff.com',
         //     replacementUrl: 'https://thoughtsandstuff.com',
         // },
-        auth: {
-          jwt_user: process.env.JWT_USER,
-          jwt_pass: process.env.JWT_PASSWORD
-        },
+//         auth: {
+//           jwt_user: process.env.JWT_USER,
+//           jwt_pass: process.env.JWT_PASSWORD
+//         },
         includedRoutes: [
           "/*/*/menus",
           "**/categories",
