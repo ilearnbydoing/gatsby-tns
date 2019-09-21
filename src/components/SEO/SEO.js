@@ -33,11 +33,6 @@ const SEO = ({
             facebookAppID
           }
         }
-        wordpressWpSettings {
-          locale: language
-          setSiteName: title
-          setDescription: description
-        }
       }
     `}
     render={({
@@ -52,8 +47,11 @@ const SEO = ({
           facebookAppID
         }
       },
-      wordpressWpSettings: { locale, setSiteName, setDescription }
+     // wordpressWpSettings: { locale ='en_GB', setSiteName = 'Blog.WebAnaya.com', setDescription = 'This is description' }
     }) => {
+      var setSiteName = 'Blog.WebAnaya.com';
+      var locale ='en_GB';
+      var setDescription = 'This is description';
       const siteName = setSiteName || fallbackSiteName;
       const pageTitle = title || setDescription || fallbackTitle;
 
